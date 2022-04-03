@@ -1,12 +1,10 @@
-import { resolve } from 'path';
-
 import client from './config/discord.js';
 import loadCommands from './commands/utils.js';
 
 const BOT_PREFIX = process.env.BOT_PREFIX;
 
 const commandsList = [
-    { name: 'ping', path: resolve('./commands/ping/ping.js') },
+    { name: 'ping', path: 'ping/ping.js' },
 ];
 
 const commands = await loadCommands(commandsList);

@@ -1,12 +1,12 @@
 {
-    "name": "discord-bot-starter",
+    "name": "discord-bot",
     "version": "1.0.0",
     "description": "",
     "type": "module",
-    "main": "app.js",
+    "main": "src/app.js",
     "scripts": {
-        "start": "node app.js",
-        "dev": "nodemon app.js",
+        "start": "node",
+        "dev": "nodemon",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
